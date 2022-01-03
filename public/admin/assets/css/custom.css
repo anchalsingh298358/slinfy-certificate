@@ -1,0 +1,183 @@
+.switch {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 25px;
+    margin-bottom: 0px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f6dbda;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 3px;
+    background-color: #ba3e3b;
+    -webkit-transition: .4s;
+    transition: .4s;
+    box-shadow: 1px 0 3px #ba3e3b;
+}
+
+.switch input:checked + .slider {
+    background-color: #c1e2c6;
+}
+
+.switch .switch input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.switch input:checked + .slider:before {
+    background-color: #2aab3c;
+    box-shadow: -1px 0 3px #2aab3c;
+    -webkit-transform: translateX(21px);
+    -ms-transform: translateX(21px);
+    transform: translateX(21px);
+}
+
+/* Rounded sliders */
+.switch .slider.round {
+    border-radius: 34px;
+}
+
+.switch .slider.round:before {
+    border-radius: 50%;
+}
+
+.info-btn {
+    float: left;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #777777;
+    border: 1px solid #777777;
+    border-radius: 50%;
+}
+
+.delete-btn {
+    float: left;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #777777;
+}
+
+.listing-table table tr.active td,
+.listing-table table tr:hover td {
+    color: #000;
+}
+
+.listing-table table tr.active .delete-btn,
+.listing-table table tr:hover .delete-btn {
+    color: #ba3e3b;
+}
+
+.listing-table table tr.active .info-btn,
+.listing-table table tr:hover .info-btn {
+    /*color: #9263fb;
+    border: 1px solid #9263fb;*/
+}
+
+.listing-table.vehicles-listing table tr.active td:nth-child(2) {
+    color: #9263fb;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding: 0.5em 5px !important;
+}
+
+#warehouse-form .col-sm-3, #warehouse-form .col-sm-9, #warehouse-form .col-sm-6,
+#doctor-form .col-sm-4, #doctor-form label, #doctor-form .col-sm-9, #doctor-form .col-sm-3, #doctor-form .col-sm-6,
+#clinic-form .col-sm-4, #clinic-form label, #clinic-form .col-sm-9, #clinic-form .col-sm-3, #clinic-form .col-sm-6,
+#medicine-form .col-sm-4, #medicine-form .col-sm-2, #medicine-form .col-sm-10, #medicine-form label, #medicine-form .col-sm-9, #medicine-form .col-sm-3, #medicine-form .col-sm-6{
+    float: left !important;
+}
+
+.upload-button-field input {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    opacity: 0;
+}
+
+.cstmUploadBtn label {
+    line-height: inherit;
+    background: #2aab3c;
+    padding: 8px 20px !important;
+    color: #fff;
+    font-size: 16px;
+    margin: 0px;
+    /*border-radius:30px;*/
+}
+
+#profile_pic-error {
+    background: none;
+    color: black;
+    width: 100%;
+    float: left;
+}
+
+.append_service_form{
+    padding: 0;
+}
+
+.append_service_form .col-md-2, .append_service_form .col-md-7, .append_service_form .col-sm-3{
+    float: left;
+}
+
+.dataTables_wrapper .dataTables_filter{
+    padding-right: 10px;
+}
+
+.error{
+    color: red;
+}
+
+.custom_btn_li .btn{
+    background-color:transparent;
+    color:#007bff;
+    border: 1px solid #007bff;
+}
+
+.custom_btn_li .btn:hover{
+    background-color:#007bff;
+    color:#fff;
+    border: 1px solid #007bff;
+}
+
+.dt-buttons{
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+input[type="checkbox"]{
+    margin: 5px;
+}
+
+.table-responsive{
+    overflow-x: clip !important;
+}

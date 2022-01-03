@@ -1,0 +1,285 @@
+
+@font-face {
+    font-family: 'cert1';
+    src: url('fonts/CURSIV.TTF') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main {
+    background-image: url('../../../images/certificate/slinfynew.png');
+    background-size: 100%;
+    margin: auto;
+    height: auto;
+    /*height: 120vh;*/
+    width: 70%;
+    /*background: beige;*/
+    word-spacing: 7px;
+    color: #0d0e0f;
+}
+
+.logo {
+    background-image: url('../../../images/certificate/shape1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 945px 120px;
+    /*margin-left: 60px;*/
+    margin-bottom: 60px;
+    height: 27vh;
+    width: 100%;
+    /*background: blue;*/
+}
+
+    .logo img {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+.content {
+    margin-top: -60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-weight: 550;
+    word-spacing: 5px;
+    text-align: justify;
+    /*height: 150vh;*/
+}
+
+.uppart {
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sno {
+    float: left;
+    width: auto;
+    margin-top:15px;
+}
+
+#date {
+    float: right;
+}
+
+.cert {
+    /*margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 55px;
+    font-weight: 500;*/
+    font-family: 'cert1',sans-serif;
+}
+
+.part1 {
+    font-size: 19px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bottompart {
+    margin-bottom: 90px;
+    font-weight: 650;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hr {
+    font-family: 'Roboto', sans-serif;
+}
+
+#notepart {
+    font-family: 'Roboto', sans-serif;
+}
+
+#sign1 img {
+    height: 40px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.footer {
+    height: 25vh;
+    background-image: url('../../../images/certificate/shape2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 945px 175px;
+}
+
+.layer img {
+    margin-top: 70px;
+    float: right;
+}
+
+.dtext {
+    font-size: 24px;
+    font-weight: bold;
+}
+/*//////////////////////This section is for input ///////////////*/
+
+
+/*////////////////Queries for responsive site*/
+@media print {
+
+
+
+    @font-face {
+        font-family: 'cert1';
+        src: url('fonts/CURSIV.TTF') format('truetype');
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        /*font-family: 'Josefin Sans', sans-serif;*/
+        /*font-family: monotype-corsiva;*/
+        /*font-family: 'cert1',sans-serif;*/
+    }
+
+
+    .main {
+        /*background-image: url('slinfy.png');*/
+        /*opacity: 0.4;*/
+        background-size: 100%;
+        margin: auto;
+        /*height:auto;*/
+        height: 100vh;
+        width: 100%;
+        background-color: beige;
+        word-spacing: 7px;
+        color: #0d0e0f;
+        overflow: hidden;
+    }
+
+    .logo {
+        background-image: url('../../../images/certificate/shape1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 100% 130px;
+        /*margin-left: 60px;*/
+        margin-bottom: 60px;
+        height: 20vh;
+        width: 100%;
+        /*background: blue;*/
+    }
+
+        .logo img {
+            width: 230px;
+            height: 57px;
+            margin-top: 30px;
+            margin-left: 40px;
+        }
+
+    .content {
+        margin-top: -145px;
+        margin-left: 80px;
+        margin-right: 80px;
+        font-weight: 300;
+        word-spacing: 3px;
+        /*letter-spacing: 1px;*/
+        text-align: justify;
+    }
+
+    .uppart {
+        /*margin-top:10px;
+			padding-bottom: 1px;*/
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #sno {
+        font-size: 18px;
+    }
+
+    #date {
+        font-size: 18px;
+    }
+
+    .cert {
+        font-family: 'cert1',sans-serif;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        font-size: 62px;
+        font-weight: 500;
+    }
+
+    .part1 {
+        /*overflow: hidden;*/ */ font-size: 18px;
+        margin-bottom: 18px;
+        font-weight: 300;
+        line-height: 35px;
+        word-spacing: 3px;
+        /*padding: 5px;*/
+    }
+
+    .dpart {
+        height: 140px;
+        margin-bottom:10px;
+        /*overflow: hidden;*/
+    }
+
+    #part2 {
+        word-spacing: 1px;
+    }
+
+    #bottompart {
+        text-align: left;
+        margin-top: 65px;
+        margin-bottom: 30px;
+        margin-left: -10px;
+        font-weight: 500;
+        font-size: 21px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #hr {
+        margin-top: 10px;
+        margin-left: -10px;
+        margin-right: -10px;
+        font-weight: 500;
+        font-size: 21px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #notepart {
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 37px;
+        margin-left: -10px;
+        font-size: 12px;
+        line-height: 30px;
+        /*font-weight: lighter;*/
+        word-spacing: 0px;
+        letter-spacing: 1px;
+    }
+
+    #sign1 img {
+        height: 70px;
+        width: 150px;
+        margin-left: 30px;
+    }
+
+    .footer {
+        height: 25vh;
+        background-image: url('../../../images/certificate/shape2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 100% 130px;
+    }
+
+    .layer img {
+        /*margin-left: auto;*/
+        margin-top: -140px;
+        float: right;
+    }
+
+    .dtext {
+        font-size: 18px;
+        font-weight: bold;
+        /*font-weight: 500;*/
+    }
+
+
+
+    /*//////////////////////This section is for input ///////////////*/
+
+}
